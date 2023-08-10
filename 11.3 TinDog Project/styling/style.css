@@ -1,0 +1,172 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+
+.card-img-top {
+  width: 20%;
+  position: relative;
+  left: 60%;
+  top: 17%;
+  height: 650px;
+}
+
+.card2{
+  height: 650px;
+  width: 100%;
+  
+}
+
+.card-body2{
+  position: relative;
+  left: 20%;
+  bottom: 51%;
+}
+
+.btn-outline-light{
+  margin-left: 7px;
+}
+
+.bi{
+  margin-right: 5px;
+}
+
+.card-text{
+  font-size: xx-large;
+  font-weight: bolder; 
+}
+
+
+.btn{
+  font-size:x-large;
+
+}
+
+@media screen and (max-width: 830px) {
+  .card-img-top {
+    width: 20%;
+    position: relative;
+    left: 80%;
+    top: 17%;
+    height: 650px;
+  }
+
+  .card-body2{
+    position: relative;
+    left: 5%;
+    bottom: 31%;
+  }
+
+  .card2{
+   
+    width: 100%;
+    
+  }
+
+  
+}
+
+/*-----------------------------------------*/
+
+
+#features{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .col-md{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   align-items: start;
+  }
+
+
+}
+
+/*----------------------*/
+
+
+#testimonial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+}
+
+.woof{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.circle-image {
+  width: 100px; /* Adjust the width and height as needed */
+  height: 100px;
+  background-color: #3498db; /* Change the background color as needed */
+  border-radius: 50%; /* Makes the element circular */
+}
+
+.logos{
+  margin-top: 40px;
+
+}
+
+
+.logo{
+  width: 180px;
+  
+}
+
+.tnw{
+  width: 110px;
+  
+}
+
+.fool{
+  width: 100%;
+  
+}
+#footer{
+  width: 100%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
