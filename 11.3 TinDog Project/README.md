@@ -1,3 +1,5 @@
+In This Project I have made responsive design for dog website using html,css and bootstrap5  
+
 # TinDog Project
 
 HINT: To fiure out which Bootstrap components/snippets are used. Refer to the PDF below:
